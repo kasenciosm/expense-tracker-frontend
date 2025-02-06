@@ -5,7 +5,7 @@ import { dollar } from "../../utils/icons";
 import Chart from "../Chart/Chart";
 import { useGlobalContext } from "../../context/GlobalContext";
 import { useEffect } from "react";
-import HIstory from "../../History/HIstory";
+import HIstory from "../../History/History";
 
 function Dashboard() {
   const {

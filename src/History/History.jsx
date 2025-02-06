@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { useGlobalContext } from "../context/GlobalContext";
 
-function HIstory() {
+function History() {
   const { transactionHistory } = useGlobalContext();
 
   const [...history] = transactionHistory();
@@ -66,4 +66,4 @@ const HistoryStyled = styled.div`
   }
 `;
 
-export default HIstory;
+export default History;
